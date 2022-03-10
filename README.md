@@ -1,0 +1,1 @@
+List of helper scripts used to maintain various lab activities at SMIT(CSE)
