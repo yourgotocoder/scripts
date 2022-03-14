@@ -9,7 +9,7 @@ do
         path="/etc/network/interfaces" #Setting the path of the file that needs to be changed or created in order to 
         echo "Enter your system number"
         read host_id
-        host_id=$((host_id+10)) 
+        host_id=$((host_id+10))
         echo "# interfaces(5) file used by ifup(8) and ifdown(8)\n">$path #Creating the file if it does not already exist or overwriting the file if it does exist
         echo "auto lo">>$path #Appending to the file
         echo "iface lo inet loopback\n">>$path
