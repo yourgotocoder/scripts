@@ -1,0 +1,5 @@
+GET http://localhost:3000/student-data
+###
+GET http://localhost:3000/student-data/get-mysql
+###
+GET http://localhost:3000/student-data/combine-name-password

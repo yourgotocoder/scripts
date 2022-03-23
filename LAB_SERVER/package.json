@@ -1,0 +1,25 @@
+{
+    "name": "lab_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "convert-csv-to-json": "^1.3.3",
+        "csv-parse": "^5.0.4",
+        "express": "^4.17.3",
+        "generate-password": "^1.7.0",
+        "json2xls": "^0.1.2",
+        "mongoose": "^6.2.8",
+        "node-csv": "^0.1.2",
+        "simple-excel-to-json": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
