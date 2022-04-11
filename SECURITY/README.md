@@ -22,6 +22,6 @@ Create a file called **usb-lock.sh** and copy paste the following lines of code 
     fi
 </code> 
 
-Save that file and turn it into an executable file by typing **chmod +x usb-lcok.sh** into the terminal from the location of that  file
+Save that file and turn it into an executable file by typing **chmod +x usb-lock.sh** into the terminal from the location of that  file
 
 Once you are done with it, the udev rules will be updated automatically and your pendrive will act as a key for your system.
