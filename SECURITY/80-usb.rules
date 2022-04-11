@@ -1,0 +1,5 @@
+#Replace idVendor and idProduct corresponding to your usb idVendor and idProduct which can be found using lsusb
+#Eg: Bus 002 Device 012: ID 0781:558a SanDisk Corp. Ultra
+#Here 0781:558a represent the vendorId:idProduct
+ACTION=="add", SUBSYSTEMS=="usb", ATTR{idVendor}=="0781", ATTR{idProduct}=="558a", RUN+="/usr/local/bin/usb-lock.sh unlock"
+ACTION=="remove", SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="0781", ENV{ID_MODEL_ID}=="558a", RUN+="/usr/local/bin/usb-lock.sh lock"
