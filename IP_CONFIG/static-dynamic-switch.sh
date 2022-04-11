@@ -1,6 +1,7 @@
 #Author: Sudarshan Rai
 shopt -s xpg_echo #Used to make sure that echo command recognises \n and \t in newer versions of linux so that we dont have to add -e flag to every echo command
-interface_names=$(ip -o link show | awk -F ': ' '{print $2} {print $1}') #Piped the output of ip command that lists the device info to only list the device names
+interface_names=$(ip -o link show | awk -F ': ' '{print $2} {print $1}') #Piped the output of ip command that lists the device info to only list the device names,
+#The secomd print statement is there for whiptail menu complication regarding how the array is parsed by it
 arr_of_interface_names=($interface_names) #Converted the interface names into an array using ()
 device_name="" 
 space="  "
