@@ -1,0 +1,27 @@
+sudo su
+
+cd /etc/default
+cp grub grub-backup
+
+gedit grub
+	Replace "quiet splash" to "text"
+	and remove # from #GRUB_TERMINAL = console
+
+Save grub file 
+
+systemctl set-default multi-user.target
+update-grub
+
+Creating a student user:
+
+sudo useradd student -p student123 -m -s /bin/bash 
+
+
+GUI: sudo service lightdm start
+sudo visudo
+student ALL=(root) NOPASSWD: /usr/sbin/service lightdm start
+student ALL=(root) NOPASSWD: /usr/sbin/service lightdm stop
+
+press control x...press enter
+yes
+press enter
