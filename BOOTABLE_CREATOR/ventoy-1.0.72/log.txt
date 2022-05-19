@@ -418,3 +418,392 @@
 [2022/03/08 14:00:13] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
 [2022/03/08 14:00:13] /dev/sda NO Ventoy detected
 [2022/03/08 14:07:38] ventoy server exit due to signal ...
+[2022/04/11 16:51:07] ===============================================
+[2022/04/11 16:51:07] ===== Ventoy2Disk 1.0.72 127.0.0.1:24680 =====
+[2022/04/11 16:51:07] ===============================================
+[2022/04/11 16:51:07] ventoy_disk_enumerate_all
+[2022/04/11 16:51:07] get disk info sdb
+[2022/04/11 16:51:07] get disk size from sysfs for sdb
+[2022/04/11 16:51:07] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:51:07] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:51:07] now check secure boot for /dev/sdb ...
+[2022/04/11 16:51:07] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:51:07] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:07] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:07] get disk info sdc
+[2022/04/11 16:51:07] get disk size from sysfs for sdc
+[2022/04/11 16:51:07] ventoy_get_vtoy_data /dev/sdc
+[2022/04/11 16:51:07] NO ventoy efi part layout <2048 0>
+[2022/04/11 16:51:07] disk:</dev/sdc 8:32> model:<SanDisk Cruzer Blade (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:07] /dev/sdc NO Ventoy detected
+[2022/04/11 16:51:07] get disk info sda
+[2022/04/11 16:51:07] get disk size from sysfs for sda
+[2022/04/11 16:51:07] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:51:07] Invalid efi part2 name <>
+[2022/04/11 16:51:07] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:51:07] /dev/sda NO Ventoy detected
+[2022/04/11 16:51:07] ============= DISK DUMP ============
+[2022/04/11 16:51:07] /dev/sdb [32 GB] SanDisk Ultra (USB)	Ventoy: 1.0.72 GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:07] /dev/sdc [32 GB] SanDisk Cruzer Blade (USB)	Ventoy: NA
+[2022/04/11 16:51:07] /dev/sda [512 GB] ATA CT500MX500SSD1 (scsi)	Ventoy: NA
+[2022/04/11 16:51:11] ventoy_disk_enumerate_all
+[2022/04/11 16:51:11] get disk info sdb
+[2022/04/11 16:51:11] get disk size from sysfs for sdb
+[2022/04/11 16:51:11] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:51:11] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:51:11] now check secure boot for /dev/sdb ...
+[2022/04/11 16:51:11] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:51:11] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:11] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:11] get disk info sdc
+[2022/04/11 16:51:11] get disk size from sysfs for sdc
+[2022/04/11 16:51:11] ventoy_get_vtoy_data /dev/sdc
+[2022/04/11 16:51:11] NO ventoy efi part layout <2048 0>
+[2022/04/11 16:51:11] disk:</dev/sdc 8:32> model:<SanDisk Cruzer Blade (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:11] /dev/sdc NO Ventoy detected
+[2022/04/11 16:51:11] get disk info sda
+[2022/04/11 16:51:11] get disk size from sysfs for sda
+[2022/04/11 16:51:11] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:51:11] Invalid efi part2 name <>
+[2022/04/11 16:51:11] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:51:11] /dev/sda NO Ventoy detected
+[2022/04/11 16:51:36] ventoy_disk_enumerate_all
+[2022/04/11 16:51:36] get disk info sdb
+[2022/04/11 16:51:36] get disk size from sysfs for sdb
+[2022/04/11 16:51:36] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:51:36] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:51:36] now check secure boot for /dev/sdb ...
+[2022/04/11 16:51:36] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:51:36] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:36] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:36] get disk info sda
+[2022/04/11 16:51:36] get disk size from sysfs for sda
+[2022/04/11 16:51:36] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:51:36] Invalid efi part2 name <>
+[2022/04/11 16:51:36] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:51:36] /dev/sda NO Ventoy detected
+[2022/04/11 16:51:45] ventoy_disk_enumerate_all
+[2022/04/11 16:51:45] get disk info sdb
+[2022/04/11 16:51:45] get disk size from sysfs for sdb
+[2022/04/11 16:51:45] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:51:45] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:51:45] now check secure boot for /dev/sdb ...
+[2022/04/11 16:51:45] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:51:45] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:45] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:45] get disk info sda
+[2022/04/11 16:51:45] get disk size from sysfs for sda
+[2022/04/11 16:51:45] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:51:45] Invalid efi part2 name <>
+[2022/04/11 16:51:45] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:51:45] /dev/sda NO Ventoy detected
+[2022/04/11 16:51:48] ventoy_disk_enumerate_all
+[2022/04/11 16:51:48] get disk info sdb
+[2022/04/11 16:51:48] get disk size from sysfs for sdb
+[2022/04/11 16:51:48] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:51:48] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:51:48] now check secure boot for /dev/sdb ...
+[2022/04/11 16:51:48] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:51:48] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:48] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:51:48] get disk info sdc
+[2022/04/11 16:51:48] get disk size from sysfs for sdc
+[2022/04/11 16:51:48] ventoy_get_vtoy_data /dev/sdc
+[2022/04/11 16:51:48] NO ventoy efi part layout <2048 0>
+[2022/04/11 16:51:48] disk:</dev/sdc 8:32> model:<SanDisk Cruzer Blade (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:51:48] /dev/sdc NO Ventoy detected
+[2022/04/11 16:51:48] get disk info sda
+[2022/04/11 16:51:48] get disk size from sysfs for sda
+[2022/04/11 16:51:48] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:51:48] Invalid efi part2 name <>
+[2022/04/11 16:51:48] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:51:48] /dev/sda NO Ventoy detected
+[2022/04/11 16:52:23] ==================================================================================
+[2022/04/11 16:52:23] ===== ventoy install /dev/sdc style:GPT secureboot:0 align4K:1 reserve:21474836480 =========
+[2022/04/11 16:52:23] ==================================================================================
+[2022/04/11 16:52:23] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:52:23] disk is mounted, now try to unmount it ...
+[2022/04/11 16:52:23] umount /dev/sdc /media/cse/UBUNTU\04020_0 [ failed ] error:2
+[2022/04/11 16:52:23] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:52:23] /dev/sdc is mounted and can't umount!
+[2022/04/11 16:52:46] ==================================================================================
+[2022/04/11 16:52:46] ===== ventoy install /dev/sdc style:GPT secureboot:0 align4K:1 reserve:0 =========
+[2022/04/11 16:52:46] ==================================================================================
+[2022/04/11 16:52:46] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:52:46] disk is mounted, now try to unmount it ...
+[2022/04/11 16:52:46] umount /dev/sdc /media/cse/UBUNTU\04020_0 [ failed ] error:2
+[2022/04/11 16:52:46] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:52:46] /dev/sdc is mounted and can't umount!
+[2022/04/11 16:52:49] ventoy_disk_enumerate_all
+[2022/04/11 16:52:49] get disk info sdb
+[2022/04/11 16:52:49] get disk size from sysfs for sdb
+[2022/04/11 16:52:49] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:52:49] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:52:49] now check secure boot for /dev/sdb ...
+[2022/04/11 16:52:49] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:52:49] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:52:49] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:52:49] get disk info sdc
+[2022/04/11 16:52:49] get disk size from sysfs for sdc
+[2022/04/11 16:52:49] ventoy_get_vtoy_data /dev/sdc
+[2022/04/11 16:52:49] NO ventoy efi part layout <2048 0>
+[2022/04/11 16:52:49] disk:</dev/sdc 8:32> model:<SanDisk Cruzer Blade (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:52:49] /dev/sdc NO Ventoy detected
+[2022/04/11 16:52:49] get disk info sda
+[2022/04/11 16:52:49] get disk size from sysfs for sda
+[2022/04/11 16:52:49] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:52:49] Invalid efi part2 name <>
+[2022/04/11 16:52:49] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:52:49] /dev/sda NO Ventoy detected
+[2022/04/11 16:53:00] ==================================================================================
+[2022/04/11 16:53:00] ===== ventoy install /dev/sdb style:GPT secureboot:0 align4K:1 reserve:0 =========
+[2022/04/11 16:53:00] ==================================================================================
+[2022/04/11 16:53:00] /dev/sdb mounted </dev/sdb2 /media/cse/VTOYEFI vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:53:00] disk is mounted, now try to unmount it ...
+[2022/04/11 16:53:00] umount /dev/sdb /media/cse/VTOYEFI [ success ]
+[2022/04/11 16:53:00] umount /dev/sdb /media/cse/Ventoy [ success ]
+[2022/04/11 16:53:00] disk is not mounted now, we can do the install ...
+[2022/04/11 16:53:00] start install thread SanDisk Ultra (USB) ...
+[2022/04/11 16:53:00] ventoy_install_thread run ...
+[2022/04/11 16:53:00] check disk sdb
+[2022/04/11 16:53:00] disk is not mounted now, we can do continue ...
+[2022/04/11 16:53:00] ventoy_clean_disk fd:5 size:30765219840
+[2022/04/11 16:53:00] write disk at off:0 writelen:65536 datalen:65536
+[2022/04/11 16:53:00] write disk at off:30765154304 writelen:65536 datalen:65536
+[2022/04/11 16:53:00] read core.img.xz rc:0 len:455176
+[2022/04/11 16:53:00] ventoy_unxz_stg1_img len:455176 rc:0
+[2022/04/11 16:53:00] read disk.img.xz rc:0 len:12968492
+[2022/04/11 16:53:01] ventoy_unxz_efipart_img len:12968492 rc:0 unxzlen:33554432
+[2022/04/11 16:53:01] Fill GPT part table
+[2022/04/11 16:53:01] Disk signature: 0x77b6515f
+[2022/04/11 16:53:01] Part1SectorCount:60020703 is not aligned by 4KB (7)
+[2022/04/11 16:53:01] Disk need to align with 4KB 7
+[2022/04/11 16:53:01] Part1StartSector:2048 Part1SectorCount:60020696 Part2StartSector:60022744
+[2022/04/11 16:53:01] Formatting part1 exFAT /dev/sdb ...
+[0122/04/11 16:53:01] Creating... 
+[0122/04/11 16:53:01] Flushing... 
+[2022/04/11 16:53:01] Formatting part2 EFI ...
+[2022/04/11 16:53:01] Formatting part2 EFI offset:30731644928 ...
+[2022/04/11 16:53:01] VentoyProcSecureBoot 0 ...
+[2022/04/11 16:53:01] Open ventoy efi file 0x635ae0 
+[2022/04/11 16:53:01] ventoy efi file size 1785856 ...
+[2022/04/11 16:53:01] Now delete all efi files ...
+[2022/04/11 16:53:01] Open bootx64 efi file 0x635ae0 
+[2022/04/11 16:53:02] Open ventoy efi file 0x635f30
+[2022/04/11 16:53:02] ventoy efi file size 1204224 ...
+[2022/04/11 16:53:02] Now delete all efi files ...
+[2022/04/11 16:53:02] Open bootia32 efi file 0x635ae0
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/11 16:53:02] Writing legacy grub ...
+[2022/04/11 16:53:02] Write GPT stage1 ...
+[2022/04/11 16:53:02] lseek offset:17408(17408) writelen:1031168(1031168)
+[2022/04/11 16:53:02] fsync data1...
+[2022/04/11 16:53:04] Checking part2 efi data /dev/sdb ...
+[2022/04/11 16:53:04] efi part data check success
+[2022/04/11 16:53:04] Writting Partition Table style:1...
+[2022/04/11 16:53:04] write backup gpt part table off:30765219328 len:512
+[2022/04/11 16:53:04] write main gpt part table off:30765202944 len:16384
+[2022/04/11 16:53:04] write gpt part head off:0 len:17408
+[2022/04/11 16:53:04] fsync data2...
+[2022/04/11 16:53:04] ====================================
+[2022/04/11 16:53:04] ====== ventoy install success ======
+[2022/04/11 16:53:04] ====================================
+[2022/04/11 16:53:04] ventoy_disk_enumerate_all
+[2022/04/11 16:53:04] get disk info sdb
+[2022/04/11 16:53:04] get disk size from sysfs for sdb
+[2022/04/11 16:53:04] ventoy_get_vtoy_data /dev/sdb
+[2022/04/11 16:53:04] ventoy partition layout check OK: [2048 60020696] [60022744 65536]
+[2022/04/11 16:53:04] now check secure boot for /dev/sdb ...
+[2022/04/11 16:53:04] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/11 16:53:04] disk:</dev/sdb 8:16> model:<SanDisk Ultra (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:53:04] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/11 16:53:04] get disk info sdc
+[2022/04/11 16:53:04] get disk size from sysfs for sdc
+[2022/04/11 16:53:04] ventoy_get_vtoy_data /dev/sdc
+[2022/04/11 16:53:04] NO ventoy efi part layout <2048 0>
+[2022/04/11 16:53:04] disk:</dev/sdc 8:32> model:<SanDisk Cruzer Blade (USB)> size:30765219840 (32 GB)
+[2022/04/11 16:53:04] /dev/sdc NO Ventoy detected
+[2022/04/11 16:53:04] get disk info sda
+[2022/04/11 16:53:04] get disk size from sysfs for sda
+[2022/04/11 16:53:04] ventoy_get_vtoy_data /dev/sda
+[2022/04/11 16:53:04] Invalid efi part2 name <>
+[2022/04/11 16:53:04] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/11 16:53:04] /dev/sda NO Ventoy detected
+[2022/04/11 16:53:21] ==================================================================================
+[2022/04/11 16:53:21] ===== ventoy install /dev/sdc style:GPT secureboot:0 align4K:1 reserve:0 =========
+[2022/04/11 16:53:21] ==================================================================================
+[2022/04/11 16:53:21] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:53:21] disk is mounted, now try to unmount it ...
+[2022/04/11 16:53:21] umount /dev/sdc /media/cse/UBUNTU\04020_0 [ failed ] error:2
+[2022/04/11 16:53:21] /dev/sdc mounted </dev/sdc1 /media/cse/UBUNTU\04020_0 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2022/04/11 16:53:21] /dev/sdc is mounted and can't umount!
+[2022/04/12 09:52:58] ===============================================
+[2022/04/12 09:52:58] ===== Ventoy2Disk 1.0.72 127.0.0.1:24680 =====
+[2022/04/12 09:52:58] ===============================================
+[2022/04/12 09:52:58] ventoy_disk_enumerate_all
+[2022/04/12 09:52:58] get disk info sdb
+[2022/04/12 09:52:58] get disk size from sysfs for sdb
+[2022/04/12 09:52:58] ventoy_get_vtoy_data /dev/sdb
+[2022/04/12 09:52:58] Not valid ventoy partition layout [2048 60553216] [0 0]
+[2022/04/12 09:52:58] disk:</dev/sdb 8:16> model:<hp x740w (USB)> size:31004295168 (32 GB)
+[2022/04/12 09:52:58] /dev/sdb NO Ventoy detected
+[2022/04/12 09:52:58] get disk info sda
+[2022/04/12 09:52:58] get disk size from sysfs for sda
+[2022/04/12 09:52:58] ventoy_get_vtoy_data /dev/sda
+[2022/04/12 09:52:58] Invalid efi part2 name <>
+[2022/04/12 09:52:58] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/12 09:52:58] /dev/sda NO Ventoy detected
+[2022/04/12 09:52:58] ============= DISK DUMP ============
+[2022/04/12 09:52:58] /dev/sdb [32 GB] hp x740w (USB)	Ventoy: NA
+[2022/04/12 09:52:58] /dev/sda [512 GB] ATA CT500MX500SSD1 (scsi)	Ventoy: NA
+[2022/04/12 09:53:02] ventoy_disk_enumerate_all
+[2022/04/12 09:53:02] get disk info sdb
+[2022/04/12 09:53:02] get disk size from sysfs for sdb
+[2022/04/12 09:53:02] ventoy_get_vtoy_data /dev/sdb
+[2022/04/12 09:53:02] Not valid ventoy partition layout [2048 60553216] [0 0]
+[2022/04/12 09:53:02] disk:</dev/sdb 8:16> model:<hp x740w (USB)> size:31004295168 (32 GB)
+[2022/04/12 09:53:02] /dev/sdb NO Ventoy detected
+[2022/04/12 09:53:02] get disk info sda
+[2022/04/12 09:53:02] get disk size from sysfs for sda
+[2022/04/12 09:53:02] ventoy_get_vtoy_data /dev/sda
+[2022/04/12 09:53:02] Invalid efi part2 name <>
+[2022/04/12 09:53:02] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/12 09:53:02] /dev/sda NO Ventoy detected
+[2022/04/12 09:53:11] ==================================================================================
+[2022/04/12 09:53:11] ===== ventoy install /dev/sdb style:GPT secureboot:0 align4K:1 reserve:0 =========
+[2022/04/12 09:53:11] ==================================================================================
+[2022/04/12 09:53:11] /dev/sdb mounted </dev/sdb1 /media/cse/CPRA_X64FREV_EN-US_DV5 fuseblk rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0
+>
+[2022/04/12 09:53:11] disk is mounted, now try to unmount it ...
+[2022/04/12 09:53:11] umount /dev/sdb /media/cse/CPRA_X64FREV_EN-US_DV5 [ success ]
+[2022/04/12 09:53:11] disk is not mounted now, we can do the install ...
+[2022/04/12 09:53:11] start install thread hp x740w (USB) ...
+[2022/04/12 09:53:11] ventoy_install_thread run ...
+[2022/04/12 09:53:11] check disk sdb
+[2022/04/12 09:53:11] disk is not mounted now, we can do continue ...
+[2022/04/12 09:53:11] ventoy_clean_disk fd:5 size:31004295168
+[2022/04/12 09:53:11] write disk at off:0 writelen:65536 datalen:65536
+[2022/04/12 09:53:11] write disk at off:31004229632 writelen:65536 datalen:65536
+[2022/04/12 09:53:11] read core.img.xz rc:0 len:455176
+[2022/04/12 09:53:11] ventoy_unxz_stg1_img len:455176 rc:0
+[2022/04/12 09:53:11] read disk.img.xz rc:0 len:12968492
+[2022/04/12 09:53:12] ventoy_unxz_efipart_img len:12968492 rc:0 unxzlen:33554432
+[2022/04/12 09:53:12] Fill GPT part table
+[2022/04/12 09:53:12] Disk signature: 0x31d7ee97
+[2022/04/12 09:53:12] Part1SectorCount:60487647 is not aligned by 4KB (7)
+[2022/04/12 09:53:12] Disk need to align with 4KB 7
+[2022/04/12 09:53:12] Part1StartSector:2048 Part1SectorCount:60487640 Part2StartSector:60489688
+[2022/04/12 09:53:12] Wait for format part1 (partstyle changed) ...
+[2022/04/12 09:53:13] Formatting part1 exFAT /dev/sdb ...
+[0122/04/12 09:53:13] Creating... 
+[0122/04/12 09:53:13] Flushing... 
+[2022/04/12 09:53:13] Formatting part2 EFI ...
+[2022/04/12 09:53:13] Formatting part2 EFI offset:30970720256 ...
+[2022/04/12 09:53:13] VentoyProcSecureBoot 0 ...
+[2022/04/12 09:53:13] Open ventoy efi file 0x635ae0 
+[2022/04/12 09:53:13] ventoy efi file size 1785856 ...
+[2022/04/12 09:53:13] Now delete all efi files ...
+[2022/04/12 09:53:13] Open bootx64 efi file 0x635ae0 
+[2022/04/12 09:53:14] Open ventoy efi file 0x635f30
+[2022/04/12 09:53:14] ventoy efi file size 1204224 ...
+[2022/04/12 09:53:14] Now delete all efi files ...
+[2022/04/12 09:53:14] Open bootia32 efi file 0x635ae0
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] write disk writelen:1048576 datalen:1048576 [ success ]
+[2022/04/12 09:53:14] Writing legacy grub ...
+[2022/04/12 09:53:14] Write GPT stage1 ...
+[2022/04/12 09:53:14] lseek offset:17408(17408) writelen:1031168(1031168)
+[2022/04/12 09:53:14] fsync data1...
+[2022/04/12 09:53:16] Checking part2 efi data /dev/sdb ...
+[2022/04/12 09:53:16] efi part data check success
+[2022/04/12 09:53:16] Writting Partition Table style:1...
+[2022/04/12 09:53:16] write backup gpt part table off:31004294656 len:512
+[2022/04/12 09:53:16] write main gpt part table off:31004278272 len:16384
+[2022/04/12 09:53:16] write gpt part head off:0 len:17408
+[2022/04/12 09:53:16] fsync data2...
+[2022/04/12 09:53:16] ====================================
+[2022/04/12 09:53:16] ====== ventoy install success ======
+[2022/04/12 09:53:16] ====================================
+[2022/04/12 09:53:16] ventoy_disk_enumerate_all
+[2022/04/12 09:53:16] get disk info sdb
+[2022/04/12 09:53:16] get disk size from sysfs for sdb
+[2022/04/12 09:53:16] ventoy_get_vtoy_data /dev/sdb
+[2022/04/12 09:53:16] ventoy partition layout check OK: [2048 60487640] [60489688 65536]
+[2022/04/12 09:53:16] now check secure boot for /dev/sdb ...
+[2022/04/12 09:53:16] /EFI/BOOT/grubx64_real.efi not exist
+[2022/04/12 09:53:16] disk:</dev/sdb 8:16> model:<hp x740w (USB)> size:31004295168 (32 GB)
+[2022/04/12 09:53:16] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2022/04/12 09:53:16] get disk info sda
+[2022/04/12 09:53:16] get disk size from sysfs for sda
+[2022/04/12 09:53:16] ventoy_get_vtoy_data /dev/sda
+[2022/04/12 09:53:16] Invalid efi part2 name <>
+[2022/04/12 09:53:16] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2022/04/12 09:53:16] /dev/sda NO Ventoy detected
