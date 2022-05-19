@@ -57,12 +57,12 @@ router.get("/get-mysql", async (req, res) => {
             if (!fs.existsSync("./user_password_server/student.sql")) {
                 fs.writeFileSync(
                     "./user_password_server/student.sql",
-                    `REVOKE ALL PRIVILEGES ON *.* FROM 'cse_${student.regno}'@'localhost';\nCREATE DATABASE db_${student.regno};\nGRANT ALL PRIVILEGES ON db_${student.regno}.* to 'cse_${student.regno}'@'localhost' with grant option;\n`
+                    `REVOKE ALL PRIVILEGES ON *.* FROM 'cse_${student.regno}'@'localhost';\nDROP DATABASE db_${student.regno};\nCREATE DATABASE db_${student.regno};\nGRANT ALL PRIVILEGES ON db_${student.regno}.* to 'cse_${student.regno}'@'localhost' with grant option;\n`
                 );
             } else {
                 fs.appendFileSync(
                     "./user_password_server/student.sql",
-                    `REVOKE ALL PRIVILEGES ON *.* FROM 'cse_${student.regno}'@'localhost';\nCREATE DATABASE db_${student.regno};\nGRANT ALL PRIVILEGES ON db_${student.regno}.* to 'cse_${student.regno}'@'localhost' with grant option;\n`
+                    `REVOKE ALL PRIVILEGES ON *.* FROM 'cse_${student.regno}'@'localhost';\nDROP DATABASE db_${student.regno};\nCREATE DATABASE db_${student.regno};\nGRANT ALL PRIVILEGES ON db_${student.regno}.* to 'cse_${student.regno}'@'localhost' with grant option;\n`
                 );
             }
         }
