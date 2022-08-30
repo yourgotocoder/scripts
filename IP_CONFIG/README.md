@@ -1,16 +1,18 @@
-How to use static-ip-gui.sh
-Step 1:
-Copy the IP_CONFIG folder into your system.
-Step 2:
-Open a terminal from the copied folder
-Step 3:
-sudo su
-Step 4:
-sudo chmod +x static-ip-gui.sh
-#The above command will turn the script into an executable file.
-Step 5:
-Enter ./static-ip-gui.sh into the terminal
-Step 6:
-Select the appropiate Ubuntu version
-Step 7:
-Enter the system number
+# NETWORK CONFIGURATION
+
+### USE THE static-dynamic-switch.sh file.
+
+#### YOU WILL NEED admin privileges to run the script.
+
+<ol>
+    <li>Copy the IP_CONFIG folder into your system.</li>
+    <li>Open a terminal from the copied folder</li>
+    <li>sudo su</li>
+    <li>sudo chmod +x static-dynamic-switch.sh</li>
+    <li>Enter ./static-dynamic-switch.sh into the terminal</li>
+    <li>Select the appropiate Ubuntu version</li>
+    <li>Enter the system number</li>
+</ol>
+
+
+
