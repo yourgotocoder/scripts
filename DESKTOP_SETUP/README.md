@@ -21,3 +21,7 @@ The installation should be taken care of by the script.
     <li><b>Mojave-CT-Classic</b> for <b>Icons</b></li>
     <li><b>Mojave-Dark</b> for <b>Legacy Applications</b></li>
 </ul>
+
+<p>
+    Or you can follow along by clicking on this link . <a href="https://linuxconfig.org/how-to-install-macos-theme-on-ubuntu-22-04-jammy-jellyfish-linux"><b>Click Here</b></a>
+</p>
