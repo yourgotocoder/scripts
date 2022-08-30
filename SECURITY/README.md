@@ -17,7 +17,7 @@ In that file, just copy paste the following code:
 
 <p>
     In my case running the command lsubs gave me multiple lines of output where <br/> 
-    <b>Bus 001 Device 006: ID 0781:558a SanDisk Corp. Ultra</b> <br/> was of significance as it gave me the vendor id and the product id, both of which I need for my script. Here <b>0781</b> is my vendor id and <b>558a</b> is my product id. You can figure out your pendrives' vendor and product ids using the same priciple.
+    <b>Bus 001 Device 006: ID 0781:558a SanDisk Corp. Ultra</b> <br/> was of significance as it gave me the vendor id and the product id, both of which I need for my script. Here <b>0781</b> is my vendor id and <b>558a</b> is my product id. You can figure out your pendrives' vendor and product ids using the same approach.
 </p>
 
 Save that file and **cd** to **_/usr/local/bin_**
