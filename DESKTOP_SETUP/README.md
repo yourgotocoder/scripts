@@ -12,6 +12,10 @@ Once you have copied the folder in your desktop. You will have to turn the <b>De
 The installation should be taken care of by the script.
 </p>
 
+<p>
+    Run the script by typing the name of the script preceeded by <b>./</b> i.e In the terminal window, type <b>./Desktop_AutoSetup_Sudu.sh</b>
+</p>
+
 ### THEME SETUP
 
 <p>Search for gnome-tweaks in your application window that can be accessed using the Windows key. In the gnome-tweak interface select Appearance then select</p>
