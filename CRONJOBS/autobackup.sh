@@ -10,7 +10,6 @@ tar --exclude=".*" -zcvpf $BACKUP_DIR/cse-$DATE.tar.gz /home/cse/
 # Delete files older than 10 days #
 find $BACKUP_DIR/* -mtime +10 -exec rm {} \;
 
-# unmount after backup is complete, -l flag waits for all processes to be 
-# done on the mounted drive
-sudo umount -l /dev/sdb1
+
+
 
