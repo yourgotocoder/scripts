@@ -13,6 +13,3 @@
     <li>Select the appropiate Ubuntu version</li>
     <li>Enter the system number</li>
 </ol>
-
-
-
