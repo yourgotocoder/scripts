@@ -1479,3 +1479,134 @@
 [2023/00/03 09:55:38] Invalid efi part2 name <>
 [2023/00/03 09:55:38] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
 [2023/00/03 09:55:38] /dev/sda NO Ventoy detected
+[2023/01/23 10:23:49] ===============================================
+[2023/01/23 10:23:49] ===== Ventoy2Disk 1.0.72 127.0.0.1:24680 =====
+[2023/01/23 10:23:49] ===============================================
+[2023/01/23 10:23:49] ventoy_disk_enumerate_all
+[2023/01/23 10:23:49] get disk info sdb
+[2023/01/23 10:23:49] get disk size from sysfs for sdb
+[2023/01/23 10:23:49] ventoy_get_vtoy_data /dev/sdb
+[2023/01/23 10:23:49] NO ventoy efi part layout <2048 0>
+[2023/01/23 10:23:49] disk:</dev/sdb 8:16> model:<Sony Storage Media (USB)> size:15489564672 (16 GB)
+[2023/01/23 10:23:49] /dev/sdb NO Ventoy detected
+[2023/01/23 10:23:49] get disk info sda
+[2023/01/23 10:23:49] get disk size from sysfs for sda
+[2023/01/23 10:23:49] ventoy_get_vtoy_data /dev/sda
+[2023/01/23 10:23:49] Invalid efi part2 name <>
+[2023/01/23 10:23:49] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2023/01/23 10:23:49] /dev/sda NO Ventoy detected
+[2023/01/23 10:23:49] ============= DISK DUMP ============
+[2023/01/23 10:23:49] /dev/sdb [16 GB] Sony Storage Media (USB)	Ventoy: NA
+[2023/01/23 10:23:49] /dev/sda [512 GB] ATA CT500MX500SSD1 (scsi)	Ventoy: NA
+[2023/01/23 10:23:53] ventoy_disk_enumerate_all
+[2023/01/23 10:23:53] get disk info sdb
+[2023/01/23 10:23:53] get disk size from sysfs for sdb
+[2023/01/23 10:23:53] ventoy_get_vtoy_data /dev/sdb
+[2023/01/23 10:23:53] NO ventoy efi part layout <2048 0>
+[2023/01/23 10:23:53] disk:</dev/sdb 8:16> model:<Sony Storage Media (USB)> size:15489564672 (16 GB)
+[2023/01/23 10:23:53] /dev/sdb NO Ventoy detected
+[2023/01/23 10:23:53] get disk info sda
+[2023/01/23 10:23:53] get disk size from sysfs for sda
+[2023/01/23 10:23:53] ventoy_get_vtoy_data /dev/sda
+[2023/01/23 10:23:53] Invalid efi part2 name <>
+[2023/01/23 10:23:53] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2023/01/23 10:23:53] /dev/sda NO Ventoy detected
+[2023/01/23 10:24:00] ==================================================================================
+[2023/01/23 10:24:00] ===== ventoy install /dev/sdb style:GPT secureboot:0 align4K:1 reserve:0 =========
+[2023/01/23 10:24:00] ==================================================================================
+[2023/01/23 10:24:00] /dev/sdb mounted </dev/sdb1 /media/cse/SUMAN vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2023/01/23 10:24:00] disk is mounted, now try to unmount it ...
+[2023/01/23 10:24:01] umount /dev/sdb /media/cse/SUMAN [ success ]
+[2023/01/23 10:24:01] disk is not mounted now, we can do the install ...
+[2023/01/23 10:24:01] start install thread Sony Storage Media (USB) ...
+[2023/01/23 10:24:01] ventoy_install_thread run ...
+[2023/01/23 10:24:01] check disk sdb
+[2023/01/23 10:24:01] disk is not mounted now, we can do continue ...
+[2023/01/23 10:24:01] ventoy_clean_disk fd:5 size:15489564672
+[2023/01/23 10:24:01] write disk at off:0 writelen:65536 datalen:65536
+[2023/01/23 10:24:01] write disk at off:15489499136 writelen:65536 datalen:65536
+[2023/01/23 10:24:02] read core.img.xz rc:0 len:455176
+[2023/01/23 10:24:02] ventoy_unxz_stg1_img len:455176 rc:0
+[2023/01/23 10:24:02] read disk.img.xz rc:0 len:12968492
+[2023/01/23 10:24:03] ventoy_unxz_efipart_img len:12968492 rc:0 unxzlen:33554432
+[2023/01/23 10:24:03] Fill GPT part table
+[2023/01/23 10:24:03] Disk signature: 0xf88d86ce
+[2023/01/23 10:24:03] Part1SectorCount:30185439 is not aligned by 4KB (7)
+[2023/01/23 10:24:03] Disk need to align with 4KB 7
+[2023/01/23 10:24:03] Part1StartSector:2048 Part1SectorCount:30185432 Part2StartSector:30187480
+[2023/01/23 10:24:03] Formatting part1 exFAT /dev/sdb ...
+[0123/01/23 10:24:03] Creating... 
+[0123/01/23 10:24:03] Flushing... 
+[2023/01/23 10:24:03] Formatting part2 EFI ...
+[2023/01/23 10:24:03] Formatting part2 EFI offset:15455989760 ...
+[2023/01/23 10:24:03] VentoyProcSecureBoot 0 ...
+[2023/01/23 10:24:03] Open ventoy efi file 0x635ae0 
+[2023/01/23 10:24:03] ventoy efi file size 1785856 ...
+[2023/01/23 10:24:03] Now delete all efi files ...
+[2023/01/23 10:24:03] Open bootx64 efi file 0x635ae0 
+[2023/01/23 10:24:03] Open ventoy efi file 0x635f30
+[2023/01/23 10:24:03] ventoy efi file size 1204224 ...
+[2023/01/23 10:24:03] Now delete all efi files ...
+[2023/01/23 10:24:03] Open bootia32 efi file 0x635ae0
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] write disk writelen:1048576 datalen:1048576 [ success ]
+[2023/01/23 10:24:04] Writing legacy grub ...
+[2023/01/23 10:24:04] Write GPT stage1 ...
+[2023/01/23 10:24:04] lseek offset:17408(17408) writelen:1031168(1031168)
+[2023/01/23 10:24:04] fsync data1...
+[2023/01/23 10:24:14] Checking part2 efi data /dev/sdb ...
+[2023/01/23 10:24:16] efi part data check success
+[2023/01/23 10:24:16] Writting Partition Table style:1...
+[2023/01/23 10:24:16] write backup gpt part table off:15489564160 len:512
+[2023/01/23 10:24:16] write main gpt part table off:15489547776 len:16384
+[2023/01/23 10:24:16] write gpt part head off:0 len:17408
+[2023/01/23 10:24:16] fsync data2...
+[2023/01/23 10:24:16] ====================================
+[2023/01/23 10:24:16] ====== ventoy install success ======
+[2023/01/23 10:24:16] ====================================
+[2023/01/23 10:24:16] ventoy_disk_enumerate_all
+[2023/01/23 10:24:16] get disk info sdb
+[2023/01/23 10:24:16] get disk size from sysfs for sdb
+[2023/01/23 10:24:16] ventoy_get_vtoy_data /dev/sdb
+[2023/01/23 10:24:16] ventoy partition layout check OK: [2048 30185432] [30187480 65536]
+[2023/01/23 10:24:16] now check secure boot for /dev/sdb ...
+[2023/01/23 10:24:16] /EFI/BOOT/grubx64_real.efi not exist
+[2023/01/23 10:24:16] disk:</dev/sdb 8:16> model:<Sony Storage Media (USB)> size:15489564672 (16 GB)
+[2023/01/23 10:24:16] /dev/sdb Ventoy:<1.0.72> GPT secureboot:0 preserve:3584
+[2023/01/23 10:24:16] get disk info sda
+[2023/01/23 10:24:16] get disk size from sysfs for sda
+[2023/01/23 10:24:16] ventoy_get_vtoy_data /dev/sda
+[2023/01/23 10:24:16] Invalid efi part2 name <>
+[2023/01/23 10:24:16] disk:</dev/sda 8:0> model:<ATA CT500MX500SSD1 (scsi)> size:500107862016 (512 GB)
+[2023/01/23 10:24:16] /dev/sda NO Ventoy detected

@@ -20,4 +20,4 @@ function checkConnectivity() {
     });
 }
 
-setInterval(checkConnectivity, 1000 * 10);
+setInterval(checkConnectivity, 1000 * 2);
