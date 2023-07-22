@@ -1,8 +1,10 @@
 #!/bin/bash
-pactl set-sink-volume @DEFAULT_SINK@ 100%
 
-SOUND_FILE="/usr/share/sounds/freedesktop/stereo/suspend-error.oga"
+pactl set-sink-mute 1 0
+pactl set-sink-volume 1 100%
 
-while [ $SECONDS -lt 20 ]; do
-  canberra-gtk-play -f "${SOUND_FILE}" 
+SOUND_FILE="/home/cse/Downloads/alarm.wav"
+
+while [ $SECONDS -lt 2 ]; do
+  play  "${SOUND_FILE}" 
 done
